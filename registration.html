@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION FORM</title>
+    <link rel="stylesheet" href="public/css/style registration.css">
+    <style >
+        .class1
+        {
+            border: none;
+            width: 15%;
+            border-bottom:1px solid tomato ;
+            background-color: transparent;
+            border-: ;
+        }
+        ::placeholder
+        {
+            color: tomato;
+        }
+       </style>
+</head>
+<body>
+        <h1> REGISTRATION FORM</h1>
+        <form>
+        <input type="button" value="back" class="class4"><br><br>
+        <label id="label1">User id  :</label> 
+        <input type="text" placeholder="userid" class="class1" > <br><br>
+        <label id= "label2">Password:</label>
+        <input type="password" placeholder="Enter your password" class="class1"> <br><br>
+        <div id="main2">
+        </div><br>
+        <Label id="label3"></Label>
+        <input type="text" placeholder="Enter your name" class="class2" >   <br><br>
+        <Label id="label4"></Label>
+        <input type="text" placeholder="Enter your address" class="class2" > <br><br>  
+        <label id=label5>please select your country :</label>
+        <select name="country" id="country">
+        <option value = "india"selected>india</option>
+        <option value="china" >china</option>
+        <option value="usa">usa</option>
+        </select>
+        <input type="text" placeholder="zipcode" pattern="[0-9]{5}"><br><br>
+        <label id="label4"></label>
+        <input type="email" placeholder="enter ur email" class="class2"><br><br>  
+        <label id="label7">Gender:</label>
+        <input type="radio" name="gender" >male
+        <input type="radio" name="gender">female<br><br>
+        <label id="label4">Language:</label>
+        <input type="checkbox" nmae="Language">English
+        <input type="checkbox" nmae="Language"> Non English<br><br>
+        <label id=label4> Select your favorite color:</label>
+        <input type="color">
+        <!--<select name="dropdown">
+        <option value = "black"selected>black</option>
+        <option value="white" >white</option>
+        <option value="red">red</option>-->
+        </select><br><br>
+        <label id="label4">Birthday</label>
+        <input type="date" placeholder="mm/dd/yyy"><br><br>
+        <label id="label4">Upload Resume :</label>
+        <input type="file" placeholder="choose a file"><br><br>
+        <label id="label4"> Upload image</label>
+        <input type="file" placeholder="Choose File"><br><br>
+        <label id="label4"></label>     
+        <input type="submit" value="submit" class="class3" >
+</form>
+</body>
+</html>

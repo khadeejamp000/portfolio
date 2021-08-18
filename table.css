@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+}
+ table,tr{
+    text-align: center;
+    justify-content: space-evenly;
+    margin-left: 250px;
+
+    
+}
+table ,th,td
+{
+    border-color: black;
+    border-style: solid;
+}
+
+    

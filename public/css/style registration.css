@@ -1,0 +1,93 @@
+body{
+    height: 1000px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(267deg ,#ee82ee ,#6363ce);
+}
+h1{
+    text-align:center ;
+    color: black;
+}
+#main1 input
+{
+     
+     
+    background-image: linear-gradient(to  bottom right,skyblue,violet);
+    
+ }
+ #label1
+ {
+     padding-left: 35%;
+     wi
+    ;
+ }
+ #label2
+ {
+     padding-left: 35%;
+ }
+ #main2
+ {
+     border: 2px;
+     height: 5px;
+     width: 26%;
+     padding-inline-start: 25%;
+     border-style: solid;
+     color:  lightgrey;
+     background-position:center;
+     padding-left: 25%;
+     margin-left: 25%;
+     margin-right:;
+ }
+ #label3
+ {
+     padding-left: 25%;
+ }
+ #label4
+ {
+     padding-left: 25%;
+     
+ }
+ #label5
+ {
+     padding-left: 25%;
+     border: none;
+     border-color: lightskyblue;
+ }
+ #label6
+ {
+     background-color: azure;
+ }
+ #label7
+ {
+     padding-left: 25%;
+     
+ }
+ .class2
+ {
+    border: none;
+    width: 50%;
+    border-bottom:1px solid tomato ;
+    background-color: transparent;
+        
+
+ }
+ .class3
+ {
+ 
+ background-image: linear-gradient(87deg,#2404ef,CYAN);
+ color:white;
+ height: 40PX;
+ width: 7%;
+ border:none ;
+ }
+ .class4
+ {
+    background-image: linear-gradient(110deg, rgb(99,99,206),CYAN);
+    color:black;
+    height: 30px;
+    width: 7%;
+    font-weight:bold;
+    border: none;
+ }
+ }
